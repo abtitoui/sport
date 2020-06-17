@@ -1,0 +1,131 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Avenir, sans-serif;
+}
+
+body {
+	background-color: #E4E4E4;
+	
+}
+/* header */
+header{
+    z-index: 1;
+    position: relative;
+    top: 10px;
+}
+.logo {
+	height: 90px;
+	width: 90px;
+	position: sticky;
+	margin-left: 15%;
+	margin-right: 2%;
+	display: block;
+}
+nav{
+    width: 60%;
+    margin: 0 ;
+    background-color: none;
+    position: relative;
+	margin-left: 26%;
+	margin-top: -3%;
+	display: block;
+}
+.accueil {
+	margin-left: 0px;
+}
+nav ul{
+    list-style-type: none;
+}
+
+nav ul li{
+    float: left;
+    position: relative;
+	margin-left: 40px;	
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    
+}
+
+nav a:hover{
+    color: #00909e;
+    border-bottom: 2px solid #00909e;
+}
+
+.sous{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: white;
+    width: 100%;
+    z-index: 1000;
+}
+nav > ul li:hover .sous{
+    display: block;
+}
+.sous li{
+    float: none;
+    text-align: center;
+	border: 0px;
+	margin-left: 0;
+	width: 100%;
+}
+.sous a{
+    padding: 10px;
+    border-bottom: none;
+	
+}
+.sous a:hover{
+    border-bottom: none;
+    background-color: RGBa(200,200,200,0.1);
+}
+
+nav ul .user {
+	height: 35px;
+	width: 35px;
+	position: relative;
+	bottom: 8px;
+	margin-left: 34px;
+}
+.deroulantX a::after{
+    content:"";
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

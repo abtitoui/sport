@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document*/
+* {
+	padding: 0px;
+	margin: 0px;
+}
+body {
+	background-image: url("../img/29281.jpg");
+	background-size: cover;
+	background-position: top;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	height: 100vh;
+	
+}
+.login {
+	position: absolute;
+	width: 400px;
+	height: 500px;
+	top: 50%;
+	left: 50%;
+	background-image: url("../img/login.png");
+	border-radius: 50px;
+	text-align: center;
+	margin: 0 auto;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+}
+.logo {
+	bottom: -26px;
+	height: 115px;
+	width: 110px;
+	position:relative;
+}
+.connecter {
+	top : 40px;
+	position: relative;
+	font-weight: bold;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	color: #848484;
+}
+.login input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #848484;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #848484;
+    font-size: 16px;
+	top: 55px;
+	position: relative;
+}
+.login input[type="password"]
+{
+		margin-top: 10px;
+
+} 
+.login input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+	width: 100px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+	position: relative;
+	top: 90px;
+}
+.login a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #848484;
+	top: 100px;
+	position: relative;
+	}
+.login a:hover {
+		
+    color : #39dc79;
+}
+
+
+ .login input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

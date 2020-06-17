@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Avenir, sans-serif;
+}
+body {
+	background-image: url("../img/Web 1920 – 1.jpg");
+	background-size: cover;
+	background-repeat: repeat-y;
+	margin: 0 auto;
+	height: 100vh;
+
+}
+table {
+	position: absolute;
+	top: 100px;
+	left: 28%;
+	text-align: center;
+	table-layout: auto;
+    height: 500px;
+	width: 40%;
+	
+	
+}
+
+.infoName {
+	background-color: #01909E;
+	padding: 10px;
+	color: white;
+	font-weight: bold;
+	position: relative;
+	width: 90px;
+	margin-top: 10px;
+	margin-left: 5px;
+}
+.info {
+	background-color: rgba(1,144,158,0.4);
+	border: 1px solid #E9E9E9;
+	max-height:10px;
+	
+}
+
+.label {
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	position: relative;
+}
+.label > span {
+	font-size: 15px;
+	display: block;
+	
+}
+.label input[type="file"] {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+.label:after {
+    content: "Choisir uen photo";
+    position: absolute;
+    top: 40%;
+    left: 36%;
+    font-weight: bold;
+}
+.info input[type="text"], input[type="email"], input[type="tel"], input[type="password"] {
+	border: 0px;
+	height: 60%;
+	width: 70%;
+	background-color: rgba(255,255,255,0.3);
+	text-align: center;
+	border-radius: 15px;
+	border-bottom: 1px solid rgba(155,155,155,1.00);
+}
+.fonction {
+	border: 0px;
+	height: 60%;
+	width: 70%;
+	background-color: rgba(255,255,255,0.3);
+	text-align: center;
+	border-radius: 15px;
+	border-bottom: 1px solid rgba(155,155,155,1.00);
+}
+.ajouter {
+	position: absolute;
+	width: 6%;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	left: 61.75%;
+	top: 600px;
+	background-color: #01909E;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	border-radius: 30px;
+	border: 0px;
+	
+}
+.ajouter:hover {
+	background-color:  rgba(1,144,158,0.86)
+}
